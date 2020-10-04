@@ -6,7 +6,7 @@ const resetbtn = document.getElementById('timer-reset-btn');
 const timerView = document.querySelector('p');
 
 startbtn.addEventListener('click', () => {
-    console.log('😂😁');
+    // console.log('😂😁');
     
     if (startStopBtn) {
             timerFlag = setInterval(() => {
@@ -32,7 +32,7 @@ startbtn.addEventListener('click', () => {
 });
 
 resetbtn.addEventListener('click', () => {
-    console.log('😂😁');
+    // console.log('😂😁');
     clearInterval(timerFlag);
     timerFlag = false;
     mSeconds = 0;
