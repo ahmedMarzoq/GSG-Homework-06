@@ -1,0 +1,40 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+.container {
+  text-align: center;
+}
+
+
+.stopwatch{
+    font-size: 7em;
+    font-weight: bold;
+}
+
+.primary--button {
+  color: #fff;
+  background: #1b66c9;
+  font-weight: bold;
+  width: 80px;
+  padding: 5px;
+  border-radius: 2px;
+  border: none;
+}
+.primary--button:hover {
+  background: #1b5fb9;
+}
+
+.secoundry--button {
+  color: #1a73e8;
+  background-color: #fff;
+  border: 1px solid #dadce0;
+  font-weight: bold;
+  width: 80px;
+  padding: 5px;
+  border-radius: 2px;
+  border: none;
+}
+.secoundry--button:hover {
+    background-color: #E4EEFC;
+}
+}
